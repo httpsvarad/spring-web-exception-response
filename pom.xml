@@ -71,9 +71,23 @@
 	        <optional>true</optional>
 	    </dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<url>https://central.sonatype.com/api/v1/publisher</url>
+		</repository>
+	</distributionManagement>
 	
 	<build>
 	  	<plugins>
+
+		<plugin>
+			<groupId>org.sonatype.central</groupId>
+			<artifactId>central-publishing-maven-plugin</artifactId>
+			<version>0.4.0</version>
+			<extensions>true</extensions>
+		</plugin>
 	
 	    <plugin>
 	      <groupId>org.apache.maven.plugins</groupId>
