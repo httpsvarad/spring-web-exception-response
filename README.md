@@ -177,7 +177,4 @@ This project is licensed under the Apache License 2.0.
 
 **Varad Manegopale**
 
-GitHub: [https://github.com/httpsvarad](https://github.com/httpsvarad)
-LinkedIn: [https://www.linkedin.com/in/varadmanegopale/](https://www.linkedin.com/in/varadmanegopale/)
-
-````
+[GitHub](https://github.com/httpsvarad) | [LinkedIn](https://www.linkedin.com/in/varadmanegopale/)
